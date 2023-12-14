@@ -1,10 +1,10 @@
 import psycopg2
 
 # Connection to database established
-conn = psycopg2.connect(database="edu",
-                        host="de-edu-db.chronosavant.ru",
-                        user="deaise",
-                        password="meriadocbrandybuck",
+conn = psycopg2.connect(database="***",
+                        host="***",
+                        user="***",
+                        password="***",
                         port="5432")
 # Autocommit switched off
 conn.autocommit = False
