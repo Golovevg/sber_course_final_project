@@ -1,0 +1,4 @@
+delete from goev_dwh_fact_passport_blacklist;
+insert into goev_dwh_fact_passport_blacklist
+select passport_num, entry_dt
+from goev_stg_passport_blacklist
